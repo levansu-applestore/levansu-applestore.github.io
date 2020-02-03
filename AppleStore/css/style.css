@@ -1,0 +1,255 @@
+body { font-family:Arial; font-size: 20px; color:#5a5a5a;}
+
+.MainMenu:link {font-family:Arial; font-size:12px; font-weight:normal;  color:#8D8D96; TEXT-DECORATION: none}
+.MainMenu:visited {font-family:Arial; font-size:12px; font-weight:normal;  COLOR: #8D8D96; TEXT-DECORATION: none}
+.MainMenu:active {font-family:Arial; font-size:12px; font-weight:normal;  COLOR: #8D8D96; TEXT-DECORATION: none}
+.MainMenu:hover {font-family:Arial; font-size:12px; font-weight:normal;  COLOR:#009EF9; TEXT-DECORATION: underline}
+
+.Footer:link {font-family:Arial; font-size:11px; font-weight:normal;  color:#5a5a5a; TEXT-DECORATION: none}
+.Footer:visited {font-family:Arial; font-size:11px; font-weight:normal;  COLOR: #5a5a5a; TEXT-DECORATION: none}
+.Footer:active {font-family:Arial; font-size:11px; font-weight:normal;  COLOR: #5a5a5a; TEXT-DECORATION: none}
+.Footer:hover {font-family:Arial; font-size:11px; font-weight:normal;  COLOR:#FFFFFF; TEXT-DECORATION: underline}
+
+.TitleProduct:link {font-family:Arial; font-size:10px; font-weight:bold;  color:#4c4c4c; TEXT-DECORATION: none}
+.TitleProduct:visited {font-family:Arial; font-size:10px; font-weight:bold;  COLOR: #4c4c4c; TEXT-DECORATION: none}
+.TitleProduct:active {font-family:Arial; font-size:10px; font-weight:bold;  COLOR: #4c4c4c; TEXT-DECORATION: none}
+.TitleProduct:hover {font-family:Arial; font-size:10px; font-weight:bold;  COLOR:#3399ff; TEXT-DECORATION: underline}
+
+.FooterMenu:link {font-family:Arial; font-size:12px; font-weight:normal;  color:#009EF9; TEXT-DECORATION: underline}
+.FooterMenu:visited {font-family:Arial; font-size:12px; font-weight:normal;  COLOR: #009EF9; TEXT-DECORATION: underline}
+.FooterMenu:active {font-family:Arial; font-size:12px; font-weight:normal;  COLOR: #009EF9; TEXT-DECORATION: underline}
+.FooterMenu:hover {font-family:Arial; font-size:12px; font-weight:normal;  COLOR:#E60834; TEXT-DECORATION: underline}
+
+
+.Home:hover
+{
+opacity:0.7;
+filter:alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.List
+{
+    padding-top: 10px;
+    padding-left:10px;    
+}
+/*.menutop {
+  width: 85%;
+}
+*/
+/* Hieu ung Scroll */
+#scr1 div {
+  visibility:hidden;
+ }
+ #scr1, #scr1 div.default {
+   width:1081px;
+   height:415px;
+   overflow:hidden;
+   visibility:visible;
+ }
+ #scr1 table tr td div {
+  visibility:visible;
+ }
+
+ #scr1 {
+   background-color:#fff;
+   margin:0px auto;
+   font-size: .8em;
+ }
+ /* Ket thuc hieu ung Scroll */
+ 
+ /* Hieu ung Scroll HotProduct */
+#scr2 div {
+  visibility:hidden;
+ }
+ #scr2, #scr2 div.default {
+   width:340px;
+   height:550px;
+   overflow:hidden;
+   visibility:visible;
+ }
+ #scr2 table tr td div {
+  visibility:visible;
+ }
+
+ #scr2 {
+   background-color:#fff;
+   margin:0px auto;
+   font-size: .8em;
+ }
+/* Ket thuc hieu ung Scroll HotProduct */
+
+ul {padding:15px; margin:0px; font-size:10px; }
+
+
+/* Hieu ung Header giu nguyen khi cuon */
+#uberbar    { 
+    background-color:#FFFFFF;
+    padding:0px 0px;
+    position:fixed; 
+    top:0; 
+    left:0;
+    z-index:2000; 
+    width:100%;
+    height:90px;
+}
+
+#Navigation    { 
+    background-color:#FFFFFF;
+    padding:0px 0px; 
+    top:0; 
+    left:0; 
+    width:100%;
+}
+
+#MainFooter    { 
+    background-color:#FFFFFF;
+    padding:0px 0px;
+    top:0;
+    left:0;
+    width:1300px;
+    margin:auto;
+}
+
+.Center    { 
+    margin: 0px;
+    width:100%;
+}
+
+#table[Attributes Style] {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-border-horizontal-spacing: 5px;
+    -webkit-border-vertical-spacing: 5px;
+}
+
+
+#tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+#homeproduct li strong {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    font-size: 14px;
+    color: #e10c00;
+    line-height: 15px;
+}
+
+
+/*về đầu trang*/
+
+/*Giỏ hàng*/
+.car {
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    position: relative;
+    line-height: 20px;
+    letter-spacing: 1px;
+   
+    font-size: 18px;
+
+    vertical-align: middle;
+    margin: 0px 0px 0px 0px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: rgb(214, 255, 0);
+    border-image: initial;
+    padding: 7px 10px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    margin-top: -50px;
+    margin-left: 86%;
+
+   
+}
+.car > .fas {
+    margin-right: 8px;
+    color: rgb(0, 128, 255);
+}
+
+/*search*/
+.kGHRjb {
+    left: 13px;
+    width: 83%;
+    display: flex;
+    position: relative;
+    box-shadow: rgba(98, 98, 98, 0.5) 0px 1px 2px 0px;
+    padding-bottom: 3px;
+
+}
+.seach {
+  width: 99%;
+
+}
+.eiGtjR {
+    font-size: 13px;
+    border-width: 0px;
+    
+    padding: 10px 10px;
+    border-radius: 4px 0px 0px 4px;
+    flex: 1 1 0%;
+    outline: none;
+}
+.dVzStw {
+    cursor: pointer;
+    height: 36px;
+    color: rgb(74, 74, 74);
+    font-size: 20px;
+    font-weight: 300;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px 11px 0px 15px;
+    background: rgb(237, 238, 242);
+    border-radius: 0px 4px 4px 0px;
+    outline: none;
+
+}
+
+/*login*/
+.hMJbVA {
+    color: rgb(0, 161, 255);
+    font-weight: 400;
+    cursor: pointer;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    vertical-align: middle;
+    margin-top: -55px;
+    margin-left: 86%;
+
+}
+
+.fas.fa-user{
+    width: 20px;
+    height: 28px;
+}
+.hMJbVA > .fas {
+    margin-right: 16px;
+}
+.gflNjp {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    white-space: nowrap;
+    margin-top: 8px;
+}
+
+
+
