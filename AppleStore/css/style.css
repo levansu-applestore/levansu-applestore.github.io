@@ -164,7 +164,7 @@ ul {padding:15px; margin:0px; font-size:10px; }
     margin: 0px 0px 0px 0px;
     border-width: 1.5px;
     border-style: solid;
-    border-color: rgb(214, 255, 0);
+    border-color: rgb(0, 255, 139);
     border-image: initial;
     padding: 7px 10px;
     border-radius: 5px;
@@ -190,7 +190,7 @@ ul {padding:15px; margin:0px; font-size:10px; }
 
 }
 .seach {
-  width: 97%;
+  width: 99%;
 
 }
 .eiGtjR {
